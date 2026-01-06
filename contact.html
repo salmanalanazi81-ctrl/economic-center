@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا - مركز التميز الاقتصادي واستشراف المستقبل</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>مركز التميز الاقتصادي</h1>
+                        <span>واستشراف المستقبل</span>
+                    </div>
+                </div>
+                <button class="nav-toggle" id="navToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="services.html">الخدمات</a></li>
+                    <li><a href="studies.html">الدراسات والتقارير</a></li>
+                    <li><a href="foresight.html">الاستشراف الاقتصادي</a></li>
+                    <li><a href="partnerships.html">الشراكات</a></li>
+                    <li><a href="contact.html" class="active">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-content">
+            <div class="container">
+                <h1>تواصل معنا</h1>
+                <p>نسعد بالتواصل معكم والإجابة على استفساراتكم</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="page-content">
+        <div class="container">
+            <!-- Contact Info Cards -->
+            <div class="contact-info-grid">
+                <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>موقعنا</h3>
+                    <p>الرياض، المملكة العربية السعودية</p>
+                    <p>طريق الملك فهد، حي العليا</p>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>اتصل بنا</h3>
+                    <p dir="ltr">+966 11 123 4567</p>
+                    <p dir="ltr">+966 11 123 4568</p>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>راسلنا</h3>
+                    <p>info@eec-riyadh.sa</p>
+                    <p>support@eec-riyadh.sa</p>
+                </div>
+
+                <div class="contact-info-card">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>ساعات العمل</h3>
+                    <p>الأحد - الخميس</p>
+                    <p>8:00 صباحاً - 5:00 مساءً</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="content-card">
+                <h2>أرسل لنا رسالة</h2>
+                <p style="margin-bottom: 30px;">نرحب باستفساراتكم ومقترحاتكم. املأ النموذج أدناه وسنتواصل معك في أقرب وقت ممكن.</p>
+                
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">الاسم الكامل *</label>
+                        <input type="text" id="name" name="name" class="form-control" required placeholder="أدخل اسمك الكامل">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">البريد الإلكتروني *</label>
+                        <input type="email" id="email" name="email" class="form-control" required placeholder="example@domain.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">رقم الهاتف</label>
+                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="+966 XX XXX XXXX">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">الموضوع *</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required placeholder="موضوع الرسالة">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">الرسالة *</label>
+                        <textarea id="message" name="message" class="form-control" required placeholder="اكتب رسالتك هنا..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        <i class="fas fa-paper-plane"></i>
+                        <span>إرسال الرسالة</span>
+                    </button>
+                </form>
+            </div>
+
+            <!-- Why Contact Us -->
+            <div class="content-card">
+                <h2>كيف يمكننا مساعدتك؟</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <h4>استفسارات عامة</h4>
+                        <p>أسئلة حول خدماتنا ومنتجاتنا</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h4>فرص الشراكة</h4>
+                        <p>للتعاون والشراكات الاستراتيجية</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h4>طلبات الاستشارات</h4>
+                        <p>للحصول على استشارات اقتصادية</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h4>طلب دراسات</h4>
+                        <p>طلب دراسات وتقارير متخصصة</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h4>فرص العمل</h4>
+                        <p>للتقديم على الوظائف المتاحة</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h4>ملاحظات ومقترحات</h4>
+                        <p>نرحب بآرائكم لتحسين خدماتنا</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ -->
+            <div class="content-card">
+                <h2>الأسئلة الشائعة</h2>
+                
+                <h3>كيف يمكنني الحصول على استشارة اقتصادية؟</h3>
+                <p>يمكنك التواصل معنا من خلال نموذج الاتصال أعلاه أو الاتصال مباشرة على رقمنا، وسيقوم فريقنا بالتواصل معك لتحديد موعد الاستشارة.</p>
+
+                <h3>هل تقدمون دراسات مخصصة؟</h3>
+                <p>نعم، نوفر دراسات وتقارير مخصصة حسب احتياجاتكم. يرجى إرسال تفاصيل طلبكم عبر النموذج أو التواصل معنا مباشرة.</p>
+
+                <h3>ما هي تكلفة الخدمات؟</h3>
+                <p>تختلف التكلفة حسب نوع الخدمة ونطاقها. نقدم استشارة أولية مجانية لتقييم احتياجاتكم وتقديم عرض سعر مناسب.</p>
+
+                <h3>كم المدة اللازمة لإعداد دراسة؟</h3>
+                <p>تعتمد المدة على نوع الدراسة وتعقيدها. عادة ما تستغرق الدراسات من 2-6 أسابيع. سنزودكم بجدول زمني محدد عند طلب الخدمة.</p>
+
+                <h3>هل تقدمون خدماتكم لخارج الرياض؟</h3>
+                <p>نعم، نقدم خدماتنا لجميع مناطق المملكة وخارجها عبر التواصل الإلكتروني والاجتماعات الافتراضية.</p>
+            </div>
+
+            <!-- Social Media -->
+            <div class="content-card text-center">
+                <h2>تابعنا على مواقع التواصل</h2>
+                <p style="margin-bottom: 30px;">ابقَ على اطلاع بآخر الأخبار والتحديثات من خلال متابعتنا</p>
+                <div class="social-links" style="justify-content: center; font-size: 24px;">
+                    <a href="#" aria-label="Twitter" style="width: 60px; height: 60px; font-size: 28px;">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" aria-label="LinkedIn" style="width: 60px; height: 60px; font-size: 28px;">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" aria-label="YouTube" style="width: 60px; height: 60px; font-size: 28px;">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" aria-label="Instagram" style="width: 60px; height: 60px; font-size: 28px;">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="logo-text">
+                            <h3>مركز التميز الاقتصادي</h3>
+                            <span>واستشراف المستقبل</span>
+                        </div>
+                    </div>
+                    <p class="footer-desc">نساهم في ازدهار اقتصاد الرياض من خلال توفير معلومات اقتصادية دقيقة وتحليلات استشرافية</p>
+                </div>
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">من نحن</a></li>
+                        <li><a href="services.html">الخدمات</a></li>
+                        <li><a href="studies.html">الدراسات والتقارير</a></li>
+                        <li><a href="contact.html">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>تواصل معنا</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>الرياض، المملكة العربية السعودية</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>info@eec-riyadh.sa</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+966 11 123 4567</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>تابعنا</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 مركز التميز الاقتصادي واستشراف المستقبل. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
